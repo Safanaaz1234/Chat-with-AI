@@ -82,7 +82,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // send POST request to server
-  const response = await fetch("https://chat-with-ai-7bt0.onrender.com/", {
+  const response = await fetch("https://localhost:5001", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
